@@ -11,8 +11,8 @@ Mobile Android/IOS time management App
 		<td><img src="screenshots/screenshot_3.jpg" alt="Screenshot 3"></td>
 	</tr>
 	<tr>
-		<td><img src="screenshots/screenshot_4.jpg" alt="Screenshot 5"></td>
-		<td><img src="screenshots/screenshot_5.jpg" alt="Screenshot 6"></td>
+		<td><img src="screenshots/screenshot_4.jpg" alt="Screenshot 4"></td>
+		<td><img src="screenshots/screenshot_5.jpg" alt="Screenshot 5"></td>
 		<td><img src="screenshots/screenshot_6.jpg" alt="Screenshot 7"></td>
 	</tr>
 </table>

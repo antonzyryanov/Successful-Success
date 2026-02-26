@@ -54,7 +54,7 @@ class ToDoBloc extends Bloc<ToDoEvent, ToDoState> {
           logger.log('Loaded low priority group');
           lowPriorityTasksModel = group;
         });
-        await repository.fetchTaskGroup(4, (group) {
+        await repository.fetchTaskGroup(3, (group) {
           logger.log('Loaded archived group');
           archivedTasksModel = group;
         });
