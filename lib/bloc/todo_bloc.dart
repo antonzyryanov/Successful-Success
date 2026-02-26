@@ -107,8 +107,6 @@ class ToDoBloc extends Bloc<ToDoEvent, ToDoState> {
           case TasksPriority.Archived:
             group = archivedTasksModel;
             break;
-          default:
-            group = highPriorityTasksModel;
         }
         final idx = group.tasks.indexWhere((t) => t.id == task.id);
         if (idx >= 0) {
@@ -134,8 +132,6 @@ class ToDoBloc extends Bloc<ToDoEvent, ToDoState> {
             break;
           case TasksPriority.Archived:
             archivedTasksModel = group;
-            break;
-          default:
             break;
         }
         emit(
